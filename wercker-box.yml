@@ -1,5 +1,5 @@
 name: sbt
-version: 0.13.6
+version: 0.13.5
 description: SBT on Ubuntu 12.04
 inherits: wercker/default@0.0.2
 type: main
@@ -11,5 +11,5 @@ script: |
   sudo apt-get update -y
   sudo apt-get install openjdk-7-jdk -y
   sudo mkdir -p /tmp/wercker-sbt
-  sudo wget https://dl.bintray.com/sbt/debian/sbt-0.13.6.deb -O /tmp/wercker-sbt/sbt.deb
+  sudo wget https://dl.bintray.com/sbt/debian/sbt-0.13.5.deb -O /tmp/wercker-sbt/sbt.deb
   sudo dpkg -i /tmp/wercker-sbt/sbt.deb
